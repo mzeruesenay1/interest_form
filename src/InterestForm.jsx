@@ -140,29 +140,4 @@ export default function InterestForm() {
     </div>
   )
 }
-```
 
----
-
-**`.gitignore`**
-```
-node_modules
-dist
-.env
-```
-
----
-
-That's **6 files total** — nothing extra. Here's what to do in Appwrite Sites:
-
-1. Push these files to your GitHub repo
-2. In Appwrite Sites, set:
-   - **Framework:** Vite
-   - **Build command:** `npm run build`
-   - **Output directory:** `dist`
-3. Add these **environment variables** in the Sites dashboard:
-```
-   VITE_APPWRITE_ENDPOINT=https://nyc.cloud.appwrite.io/v1
-   VITE_APPWRITE_PROJECT_ID=69a9b658000bc2b14a5f
-   VITE_APPWRITE_DATABASE_ID=69a9c4d40023565cc6d4
-   VITE_APPWRITE_COLLECTION_ID=69a9c65a0021f2df5d20
