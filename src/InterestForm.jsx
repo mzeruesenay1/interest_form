@@ -162,7 +162,7 @@ That's **6 files total** — nothing extra. Here's what to do in Appwrite Sites:
    - **Output directory:** `dist`
 3. Add these **environment variables** in the Sites dashboard:
 ```
-   VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
-   VITE_APPWRITE_PROJECT_ID=xxxx
-   VITE_APPWRITE_DATABASE_ID=xxxx
-   VITE_APPWRITE_COLLECTION_ID=xxxx
+   VITE_APPWRITE_ENDPOINT=https://nyc.cloud.appwrite.io/v1
+   VITE_APPWRITE_PROJECT_ID=69a9b658000bc2b14a5f
+   VITE_APPWRITE_DATABASE_ID=69a9c4d40023565cc6d4
+   VITE_APPWRITE_COLLECTION_ID=69a9c65a0021f2df5d20
